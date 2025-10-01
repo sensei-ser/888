@@ -500,18 +500,6 @@ const s = global.support = {ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, fi
 Object.freeze(global.support);
 }
 
-// Tmp
-setInterval(async () => {
-const tmpDir = join(__dirname, 'tmp')
-try {
-const filenames = readdirSync(tmpDir)
-filenames.forEach(file => {
-const filePath = join(tmpDir, file)
-unlinkSync(filePath)})
-console.log(chalk.gray(`→ Archivos de la carpeta TMP eliminados`))
-} catch {
-console.log(chalk.gray(`→ Los archivos de la carpeta TMP no se pudieron eliminar`));
-}}, 30 * 1000) 
 
 // Sessions Subs
 setInterval(async () => {
