@@ -176,7 +176,7 @@ await conn.sendMessage(
     throw e
   }
 }
-handler.help = ['menu']
+handler.help = ['меню']
 handler.tags = ['main']
 handler.command = ['меню', 'menú', 'help'] 
 handler.group =true
