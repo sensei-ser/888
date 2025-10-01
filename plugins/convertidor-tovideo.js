@@ -28,6 +28,6 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 handler.help = ['tovideo'];
 handler.tags = ['transformador'];
 handler.group = true;
-handler.register = false
+
 handler.command = ['tovideo', 'tomp4', 'mp4', 'togif'];
 export default handler;

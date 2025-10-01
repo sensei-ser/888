@@ -39,7 +39,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['sexo @tag'];
 handler.tags = ['fun'];
 handler.command = ['sexo']
-handler.register = false;
+;
 handler.group = true;
 
 export default handler;

@@ -43,7 +43,7 @@ await conn.reply(m.chat, errorMessage2, m, rcanal,)
 
 handler.help = ['update', 'actualizar']
 handler.tags = ['owner']
-handler.command = ['update', 'actualizar']
+handler.command = ['об', 'обновить']
 handler.rowner = true
 
 export default handler

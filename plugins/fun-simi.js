@@ -16,7 +16,7 @@ throw '⚠︎ *Ocurrió un error*';
 handler.help = ['simi', 'bot'];
 handler.tags = ['fun'];
 handler.group = true;
-handler.register = false
+
 handler.command = ['simi','bot','alexa']
 export default handler;
 async function simitalk(ask, apikeyyy = "iJ6FxuA9vxlvz5cKQCt3", language = "es") {

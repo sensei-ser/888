@@ -9,5 +9,5 @@ handler.help = ['meme']
 handler.tags = ['fun']
 handler.command = ['meme', 'memes']
 handler.group = true;
-handler.register = false
+
 export default handler

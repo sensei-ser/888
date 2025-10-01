@@ -31,5 +31,5 @@ handler.help = ['abrazar'].map((v) => v + ' <@usuario>');
 handler.tags = ['fun'];
 handler.command = ['abrazar'];
 handler.group = true;
-handler.register = false
+
 export default handler;

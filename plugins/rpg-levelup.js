@@ -27,5 +27,5 @@ handler.help = ['levelup']
 handler.tags = ['rpg']
 handler.command = ['nivel', 'lvl', 'levelup', 'level'] 
 handler.group = true;
-handler.register = false
+
 export default handler

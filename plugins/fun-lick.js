@@ -1,4 +1,4 @@
-//Codígo creado por David Chian wa.me/5351524614
+//Codígo creado por David Chian wa.me/79615370645
 
 import fs from 'fs';
 import path from 'path';

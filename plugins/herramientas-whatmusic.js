@@ -28,6 +28,6 @@ m.reply(txt)
 } else throw '❌ocurrió un error, vuelva a intentar❌'
 }
 handler.command = /^quemusica|quemusicaes|whatmusic$/i
-handler.register = false;
+;
 handler.group = true;
 export default handler

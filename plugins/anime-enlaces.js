@@ -24,6 +24,6 @@ handler.command = ['animelink']
 
 handler.eatrellas = 1
 handler.group = true;
-handler.register = false
+
 
 export default handler 

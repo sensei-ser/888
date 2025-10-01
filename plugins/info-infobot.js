@@ -75,7 +75,7 @@ showAdAttribution: !![],
 handler.help = ["infobot", "speed"];
 handler.tags = ["info", "tools"];
 handler.command = ['infobot'];
-handler.register = false
+
 export default handler;
 
 function clockString(ms) {

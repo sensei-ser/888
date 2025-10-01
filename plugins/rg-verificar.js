@@ -48,7 +48,7 @@ Código de registro
 ${sn}
 
 Verifica tu registro aquí:
-https://whatsapp.com/channel/0029Vawz6Y91SWsyLezeAb0f
+https://whatsapp.com
 `;
   await conn.sendFile(m.chat, pp, 'hutao.jpg', caption, m, null, rcanal);
   

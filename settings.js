@@ -7,12 +7,12 @@ import moment from 'moment-timezone'
 global.botnumber = ''
 
 global.owner = [
-    ["5218711426787", "Propietario 👑", true],
+    ["79615370645", "Propietario 👑", true],
     //num en lid v:
-    ["239298850873418", "creadorLid", true],
-    ["5492916450307"],    
-    ["5218712620915"],
-    ["5351524614"]
+    ["79615370645", "creadorLid", true],
+    ["79615370645"],    
+    ["79615370645"],
+    ["79615370645"]
 ];
 
 global.mods = []
@@ -69,12 +69,12 @@ channel3: "120363387958443019@newsletter",
 channel4: "120363371018732371@newsletter"
 }
 
-global.gp4 = 'https://chat.whatsapp.com/LcifaLUrmww6CPT27IuSAa'
-global.gp1 = 'https://chat.whatsapp.com/GFyLX1dDDxI0utho5GBmJI'
-global.channel = 'https://whatsapp.com/channel/0029Vb7Ji66KbYMTYLU9km3p'
+global.gp4 = 'https://whatsapp.com'
+global.gp1 = 'https://whatsapp.com'
+global.channel = 'https://whatsapp.com'
 global.md = 'https://github.com/CheirZ'
 global.correo = 'miguel.doce12000@outlook.com'
-global.cn = 'https://whatsapp.com/channel/0029VacDy0R6hENqnTKnG820'
+global.cn = 'https://whatsapp.com'
 
 global.cheerio = cheerio;
 global.fs = fs;

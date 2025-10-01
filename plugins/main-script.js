@@ -27,7 +27,7 @@ await m.react(error)
 
 handler.help = ['script']
 handler.tags = ['main']
-handler.command = ['script', 'sc']
-handler.register = false
+handler.command = ['scriанглpt', 'scагролд']
+
 
 export default handler

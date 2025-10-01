@@ -12,7 +12,7 @@ conn.reply(m.chat, `
 handler.help = ['penetrar @user']
 handler.tags = ['fun']
 handler.command = ['penetrar','penetrado']
-handler.register = false;
+;
 handler.group = true;
 handler.fail = null
 export default handler

@@ -203,7 +203,7 @@ await conn.sendMessage(
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu', 'menú', 'help'] 
+handler.command = ['меню', 'menú', 'help'] 
 handler.group =true
 
 export default handler

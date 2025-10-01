@@ -22,7 +22,7 @@ handler.tags = ['fun']
 handler.command = ['personalidad']
 
 handler.group = true;
-handler.register = false
+
 
 export default handler
 

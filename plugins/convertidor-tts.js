@@ -25,7 +25,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
 handler.help = ['tts <lang> <teks>'];
 handler.tags = ['tools'];
 handler.group = true;
-handler.register = false
+
 handler.command = ['tts'];
 export default handler;
 

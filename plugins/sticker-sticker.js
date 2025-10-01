@@ -47,7 +47,7 @@ else return conn.reply(m.chat, ' ⚠︎ Responde a una imagen o un video de 8s :
 handler.help = ['stiker <img>', 'sticker <url>']
 handler.tags = ['sticker']
 //handler.group = true;
-handler.register = false
+
 handler.command = ['s', 'sticker', 'stiker']
 
 export default handler

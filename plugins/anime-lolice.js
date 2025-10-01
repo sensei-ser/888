@@ -9,6 +9,6 @@ avatar: await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24
 handler.help = ['lolice']
 handler.tags = ['anime']
 handler.group = true;
-handler.register = false
+
 handler.command = ['lolice']
 export default handler

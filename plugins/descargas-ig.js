@@ -24,6 +24,6 @@ handler.command = ['instagram', 'ig']
 handler.tags = ['descargas']
 handler.help = ['instagram', 'ig']
 handler.group = true;
-handler.register = false
+
 
 export default handler

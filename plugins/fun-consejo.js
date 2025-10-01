@@ -18,7 +18,7 @@ handler.command = ['consejo']
 handler.fail = null
 handler.exp = 0
 handler.group = true;
-handler.register = false
+
 
 export default handler
 

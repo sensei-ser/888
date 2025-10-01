@@ -1,4 +1,4 @@
-//Codígo modificado por ya saben xd wa.me/5351524614
+//Codígo modificado por ya saben xd wa.me/79615370645
 
 import { delay } from "@whiskeysockets/baileys";
 
@@ -75,7 +75,7 @@ ${x[2]} : ${y[2]} : ${z[2]}
 handler.help = ['slot <apuesta>'];
 handler.tags = ['fun'];
 handler.group = true;
-handler.register = false
+
 handler.command = ['slot'];
 export default handler;
 

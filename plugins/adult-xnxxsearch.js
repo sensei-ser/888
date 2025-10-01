@@ -36,7 +36,7 @@ if (!db.data.chats[m.chat].nsfw && m.isGroup) return m.reply('🚩 *¡Estos coma
 handler.help = ['xnxxsearch'].map((v) => v + ' <query>');
 handler.tags = ['downloader', 'premium'];
 handler.command = ['xnxxsearch', 'xnxxs'];
-handler.register = false;
+;
 handler.group = true;
 export default handler;
 

@@ -11,9 +11,9 @@ handler.all = async function (m) {
 let pp = '' 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-global.creador = 'Wa.me/5218711426787'
+global.creador = 'Wa.me/79615370645'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/5218711426787'
+global.asistencia = 'Wa.me/79615370645'
 global.namechannel = 'ɦʊȶǟօ-քʀօʏɛƈȶ'
 global.namechannel2 = ''
 global.namegrupo = '✦͙͙͙*͙*❥⃝∗⁎.ʚ ʰᵘᵗᵃᵒ-ᵖʳᵒʸᵉᶜᵗ ɞ.⁎∗❥⃝**͙✦͙͙͙'

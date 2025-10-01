@@ -1,4 +1,4 @@
-//Codígo creado por DAVID CHIAN!! PERRAS wa.me/5351524614
+//Codígo creado por DAVID CHIAN!! PERRAS wa.me/79615370645
 
 import fs from 'fs';
 import path from 'path';
@@ -37,7 +37,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['violar @tag'];
 handler.tags = ['fun'];
 handler.command = ['nalguear'];
-handler.register = false;
+;
 handler.group = true;
 
 export default handler;

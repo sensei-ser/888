@@ -16,7 +16,7 @@ handler.tags = ['fun']
 handler.command = ['pregunta','preguntas']
 
 handler.group = true;
-handler.register = false
+
 
 export default handler
 

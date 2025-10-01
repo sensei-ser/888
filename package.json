@@ -19,13 +19,13 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/CheirZ/HuTao-Proyect",
+"homepage": "https://github.com/sensei-ser/888",
 "author": {
 "name": "Ximiguelon" },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/CheirZ/HuTao-Proyect.git" },
-"bugs": { "url": "https://github.com/CheirZ/HuTao-Proyect/issues" },
+"url": "git+https://github.com/sensei-ser/888.git" },
+"bugs": { "url": "https://github.com/sensei-ser/888/issues" },
 "license": "MIT-License",
 "dependencies": {
 "@whiskeysockets/baileys": "npm:baileys-mod",

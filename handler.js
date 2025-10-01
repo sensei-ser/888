@@ -586,7 +586,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 //await conn.sendPresenceUpdate('composing', m.chat);
 //this.sendPresenceUpdate('recording', m.chat);
 
-if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|ai|hutao|huta|a|s)/gi)) {
+if (db.data.chats[m.chat].reaction && m.text.match(/(меню|привет|бот|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|ai|hutao|huta|a|s)/gi)) {
 let emot = pickRandom(["🚩", "🍟", "🔥","✨️", "🌸", "💥", "⭐️", "🌟", "🍂", "🫂", "🍁", "💖", "💞", "💕", "💋"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
@@ -723,13 +723,13 @@ let chat = global.db.data.chats[msg?.chat] || {}
 if (!chat?.delete) return 
 if (!msg) return 
 if (!msg?.isGroup) return 
-const antideleteMessage = `╭•┈•〘❌ 𝗔𝗡𝗧𝗜 𝗗𝗘𝗟𝗘𝗧𝗘 ❌〙•┈• ◊
+const antideleteMessage = `╭•┈•〘❌ АНТИ УДАЛЕНИЕ❌〙•┈• ◊
 │❒ 𝗨𝗦𝗨𝗔𝗥𝗜𝗢:
 │• @${participant.split`@`[0]}
 │
 │❒ 𝗔𝗰𝗮𝗯𝗮 𝗱𝗲 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗿 𝘂𝗻 𝗺𝗲𝗻𝘀𝗮𝗷𝗲
 │𝗿𝗲𝗲𝗻𝘃𝗶𝗮𝗻𝗱𝗼... ⏱️
-╰•┈•〘❌ 𝗔𝗡𝗧𝗜 𝗗𝗘𝗟𝗘𝗧𝗘 ❌〙•┈• ◊`.trim();
+╰•┈•〘❌ АНТИ УДАЛЕНИЕ ❌〙•┈• ◊`.trim();
 await this.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
 this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
 } catch (e) {
@@ -738,16 +738,16 @@ console.error(e)
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '[ ⚠︎ ] el comando es exclusivo para owners.',
-    owner: '[ ⚠︎ ] el comando es exclusivo para owners.',
-    mods: '[ ⚠︎ ] el comando solo lo pueden usar los moderadores.',
-    premium: '[ ⚠︎ ] este comando es solo para usuarios premium.',
-    group: '[ ⚠︎ ] este comando solo se puede usar en grupos.',
-    private: '[ ⚠︎ ] este comando solo se puede usar en chat privado.',
-    admin: '[ ⚠︎ ] este comando solo lo pueden usar los admins del grupo.',
-    botAdmin: '[ ⚠︎ ] para usar este comando es necesario que yo sea admin.',
+rowner: '[ ⚠︎ ] команда исключительно для владельцев.',
+    owner: '[ ⚠︎ ] команда исключительно для владельцев.',
+    mods: '[ ⚠︎ ] команда может использоваться только модераторами.',
+    premium: '[ ⚠︎ ] эта команда предназначена только для премиум-пользователей.',
+    group: '[ ⚠︎ ] эту команду можно использовать только в группах.',
+    private: '[ ⚠︎ ] эту команду можно использовать только в приватном чате.',
+    admin: '[ ⚠︎ ] эту команду могут использовать только администраторы группы.',
+    botAdmin: '[ ⚠︎ ] чтобы использовать эту команду, я должен быть администратором.',
     unreg: '[⌨︎] 𝕙𝕠𝕝𝕒, 𝕓𝕚𝕖𝕟𝕧𝕖𝕟𝕚𝕕𝕠 𝕒 𝕝𝕒 𝕔𝕠𝕞𝕦𝕟𝕚𝕕𝕒𝕕 𝕕𝕖 𝕙𝕦𝕥𝕒𝕠-𝕞𝕕, 𝕝𝕖 𝕚𝕟𝕗𝕠𝕣𝕞𝕠 𝕢𝕦𝕖 𝕟𝕠 𝕤𝕖 𝕖𝕟𝕔𝕦𝕖𝕟𝕥𝕣𝕒 𝕣𝕖𝕘𝕚𝕤𝕥𝕣𝕒𝕕𝕠, 𝕡𝕒𝕣𝕒 𝕙𝕒𝕔𝕖𝕣𝕝𝕠 𝕦𝕤𝕖 𝕖𝕝 𝕔𝕠𝕞𝕒𝕟𝕕𝕠\n\n!Reg Name.22\n\n𝕒𝕢𝕦𝕚 𝕦𝕟 𝕖𝕛𝕖𝕞𝕡𝕝𝕠 = !reg huato.22\n\n\n 𝕖𝕤𝕡𝕖𝕣𝕠 𝕙𝕒𝕪𝕒𝕤 𝕖𝕟𝕥𝕖𝕟𝕕𝕚𝕕𝕠 𝕪 𝕒𝕤𝕚 𝕡𝕦𝕖𝕕𝕒𝕤 𝕦𝕤𝕒𝕣 𝕖𝕝 𝕓𝕠𝕥',
-    restrict: '[ ⚠︎ ] This command is restricted/disables owner',
+    restrict: '[ ⚠︎ ] Эта команда ограничивает/отключает работу владельца',
        restrict: '[ ⚠︎ ]\nᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ᴱˢᵗᵃ ᴿᵉˢᵗʳⁱⁿᵍⁱᵈᵒ/ᴰᵉˢᵃᶜᵗⁱᵛᵃ ᴾᵒʳ ᴰᵉˢⁱᶜⁱᵒⁿ ᴰᵉˡ ᴾʳᵒᵖⁱᵉᵗᵃʳⁱᵒ/ᴬ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}

@@ -23,5 +23,5 @@ handler.help = ['speedtest'];
 handler.tags = ['info'];
 handler.command = ['speedtest','stest','speed'];
 
-handler.register = false
+
 export default handler;
