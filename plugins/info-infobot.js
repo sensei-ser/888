@@ -24,21 +24,26 @@ const handler = async (m, { conn, usedPrefix }) => {
     await conn.sendMessage(m.chat, { react: { text: '🥀', key: m.key } })
   const info = `
 
-╭━━━━━━･❪ ❁ ❫ ･━━━━━━
-│➸ *𖨆Actividad*
-│➸ *${uptime}*
-│
-│•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
-│
-│➸ *𓇽Chats*
-│➸ 𝘊𝘩𝘢𝘵𝘴 𝘗𝘳𝘪𝘷𝘢𝘥𝘰𝘴: *${chats.length - groups.length}*
-│➸ 𝘊𝘩𝘢𝘵𝘴 𝘋𝘦 𝘎𝘳𝘶𝘱𝘰𝘴: *${groups.length}* 
-│➸ 𝘊𝘩𝘢𝘵𝘴 𝘛𝘰𝘵𝘢𝘭𝘦𝘴: *${chats.length}* 
-│
-│•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
-│
-│➸ *＊✿❀𝐇𝐮𝐓𝐚𝐨-𝐌𝐃❀✿＊*
-╰━━━━━━･❪ ❁ ❫ ･━━━━━━❖`.trim();
+.    ╭─ׅ─ׅ┈ ☪︎︎︎︎̸─ׅ─ׅ┈ ─╮
+╭╼☁️☁️
+┃֪࣪  ╰─ׅ─ׅ┈─☪︎︎︎̸🍧☪︎︎︎︎̸─ׅ─ׅ┈ ─╯
+├ׁ̟̇❍✎ *🄲ʀᴇᴀᴅᴏʀ:* ★彡( Ӿł_₥ł₲ɄɆⱠØ₦77ӾӾ )彡★
+├ׁ̟̇❍✎ *🄼ᴏᴅᴏ:* Público
+├ׁ̟̇❍✎ *🄱ᴀɪʟᴇʏs:* Multi Device
+├ׁ̟̇❍✎ *🅃ɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* %muptime
+├ׁ̟̇❍✎ *🅄sᴜᴀʀɪᴏs:* %totalreg
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
+
+╭╼☁️☁️
+├ׁ̟̇❍✎ *🄲ʟɪᴇɴᴛᴇ:* %name
+├ׁ̟̇❍✎ *🄴xᴘ:* %exp
+├ׁ̟̇❍✎ *🄽ɪᴠᴇʟ:* %level
+├ׁ̟̇❍✎ *🅁ᴀɴɢᴏ:* %role
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
+
+%readmore
+*─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ─*
+`.trim();
   const doc = [
     "pdf",
     "zip",
@@ -48,7 +53,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI` },
+    document: { url: `https://chat.whatsapp.com/` },
     mimetype: `application/${document}`,
     fileName: `「 𝐇𝐮ⷡ𝐓ⷪ𝐚ⷮ𝐨-𝐌𝐃󠁂󠀧󠁂🈀 」`,
     fileLength: 99999999999999,
@@ -63,7 +68,7 @@ showAdAttribution: !![],
         title: "𝑩𝒐𝒕 𝑯𝒖𝑻𝒂𝒐-𝑴𝑫",
         thumbnail: imagen10,
         renderLargerThumbnail: !![],
-        sourceUrl: "https://chat.whatsapp.com/KxHaM2J0NWPDR4RU24OmFw",
+        sourceUrl: "https://chat.whatsapp.com",
       },
     },
     caption: info,
@@ -74,7 +79,7 @@ showAdAttribution: !![],
 };
 handler.help = ["infobot", "speed"];
 handler.tags = ["info", "tools"];
-handler.command = ['infobot'];
+handler.command = ['меню'];
 
 export default handler;
 
