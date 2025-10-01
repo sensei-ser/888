@@ -170,9 +170,9 @@ await conn.sendMessage(
     throw e
   }
 }
-handler.help = ['меню']
+handler.help = ['венро']
 handler.tags = ['main']
-handler.command = ['меню', 'menú', 'help'] 
+handler.command = ['епрнокено', 'menú', 'help'] 
 handler.group =true
 
 export default handler
